@@ -1,0 +1,28 @@
+.blya {
+    max-width: 500px;
+    max-height: 500px;
+    margin: 0 auto;
+}
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(96, 113, 145);
+
+    animation: kwadrat 3s infinite;
+}
+
+
+@keyframes kwadrat {
+    0% {
+        transform: translate(0,0);
+    }
+    25% {
+        transform: translateY(300px);
+    }
+    50% {
+        transform: translate(300px,300px);
+    }
+    75% {
+        transform: translate(300px);
+    }
+}
